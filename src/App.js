@@ -1,25 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import DemoUseImperativeHandle from './demo_useImperativeHandle/DemoUseImperativeHandle';
+// import Context from './demo_context/Context';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <DemoUseImperativeHandle></DemoUseImperativeHandle>
+    <button>Play</button>
+    <button>Pause</button>
+    </>
+  )
 }
 
 export default App;
